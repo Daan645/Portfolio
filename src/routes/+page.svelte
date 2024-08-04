@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<style>
+@import url('/index.css');
+</style>
+<div class="page-wrapper">
+
+
+<!-- Hero -->
+<section class="hero">
+<div class="hero-title-container">
+<h1 class="hero-title" >Daan Jacobs</h1>
+<p class="hero-subtext">Frontend Developer</p>
+</div>
+<div class="hero-arrow-container">
+<img class="hero-arrow-img" src="/images/Arrow.png" alt="arrow down">
+</div>
+</section>
+<!-- About -->
+<section class="languages">
+
+</section>
+<!-- Languages -->
+</div>
