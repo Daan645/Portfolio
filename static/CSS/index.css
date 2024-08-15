@@ -93,7 +93,7 @@
     opacity: 20%;
     transition: 0.7s ease;
     margin: 0.5em;
-
+animation: languages-fade-in 0.2s ease-in;
 }
 
 .languages-mysql {
@@ -165,3 +165,14 @@
 }
 
 
+@keyframes languages-fade-in {
+0% {
+transform: translateY(-30%);
+opacity: 0;
+}
+
+100% {
+    transform: translateY(0);
+    opacity: 20%;
+}
+}

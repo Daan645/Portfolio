@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Language Title</title>
-    <link rel="stylesheet" href="/index.css">
+    <title>Daan Jacobs</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="/JS/index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
 </head>
 <body>
     <div class="page-wrapper">
