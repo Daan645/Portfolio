@@ -143,12 +143,23 @@ animation: languages-fade-in 0.2s ease-in;
     opacity: 100%;
 }
 
-
-
-
-
-
-
+.languages-active {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 4em;
+    width: 75vw;
+    height: 75vh;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    background-color: black;
+    border: 10px solid orange;
+    color: orange;
+    opacity: 100%;
+}
 
 @keyframes arrow-floating-animation {
     0% {
