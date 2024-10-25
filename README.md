@@ -10,7 +10,7 @@ Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="por
 - [📈 Waar ben ik het meest trots op](#-waar-ben-ik-het-meest-trots-op)
 - [🚧 Waar liep ik tegen aan](#-waar-liep-ik-tegen-aan)
 - [🎯 Wat wil ik nog maken](#-wat-wil-ik-nog-maken)
-- [🛠️ Tech stack](#-tech-stack)
+- [🛠️ Stack](#-stack)
 - [🧰 Tools](#-tools)
 - [🔧 Installatie](#-installatie)
 
@@ -65,7 +65,7 @@ Ik vond het ook tof om een neon hover effect te creëren op mijn programming lan
 - Ik wil dat je mijngithub kunt bekijken 
 
 
-## 🛠️ Tech stack
+## 🛠️ Stack
 - HTML
 - CSS
 - JS
