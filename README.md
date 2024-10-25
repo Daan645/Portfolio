@@ -1,6 +1,9 @@
 # Profile card / portfolio
 <img width="1755" alt="Scherm­afbeelding 2024-09-19 om 14 10 24" src="https://github.com/user-attachments/assets/ad3f6923-2b30-4bb1-b40f-fb65ddf87904">
 
+## Link naar website
+Bekijk mijn portfolio <a href="" alt="portfolio website">Hier</a>
+
 ## Inhoudsopgave
   * [✏️ Beschrijving](#beschrijving)
   * [💻 Gebruik](#gebruik)
