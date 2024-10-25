@@ -11,7 +11,7 @@ Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="por
 - [🚧 Waar liep ik tegen aan](#waar-liep-ik-tegen-aan)
 - [🎯 Wat wil ik nog maken](#wat-wil-ik-nog-maken)
 - [🛠️ Tech Stack](#tech-stack)
-- [🔍 Kenmerken](#kenmerken)
+- [🧰 Tools](#Tools)
 - [🔧 Installatie](#-installatie)
 
 
@@ -21,14 +21,9 @@ Dit is mijn persoonlijke portfolio, hier wil ik al mijn toffe projecten laten zi
 <a href="https://your-tribe-for-life-profile-card-three.vercel.app/" alt="link naar squad page">Bekijk hier de website</a>
 
 ## 💻 Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
-### User story
-Als gebruiker wil ik meer te weten komen over Daan.
-
-### Gebruik visite kaartje
 De pagina is zowel bedienbaar met muis als met keyboard. Je kunt door de pagina scrollen om meer te weten te komen over mij. Mijn naam gaat naar mijn github, de frontend development knop heeft een leuke verassing ;). Op de tweede pagina kun je lezen over de verschillende programmeer talen waarover ik beschik. Dit kun je doen door deze aan te klikken, er komt dan een pop-up met de informatie erover. Deze kan weer gesloten worden door op het kruisje te klikken.
 
-## Waar ben ik het meest trots op
+## 📈 Waar ben ik het meest trots op
 
 #### Scroll snap (carousel)
 De pagina voelt aan alsof je door slides gaat, alle delen gaan namelijk precies in het midden van het scherm staan.
@@ -46,7 +41,7 @@ Wanneer er over de programmeer talen gehoverd wordt komt er een soort neon effec
 #### Programeer talen pop-up functie
 Door op de programmeer taal te klikken krijg je een popup met daarin de alle informatie over de desbetreffende programmeer taal, deze kun je vervolgens ook weer sluiten door op het kruisje te klikken.
 
-## Waar liep ik tegen aan
+## 🚧 Waar liep ik tegen aan
 
 ### Scroll snap
 Ik had het idee om de pagina als een grote slider aan te laten voelen. Ik had dit alleen nog nooit gemaakt. Ik ben toen gaan googelen naar css carousel, omdat mijn pagina eigenlijk een groot carousel is. Daarop kwam ik de scrollsnap mandatory tegen. Dit heb ik gebruikt om het slide effect te creeëren. 
@@ -62,7 +57,7 @@ Ik heb de animatie met css keyframes gemaakt, nadat ik de animatie had gemaakt z
 Ik vond het ook tof om een neon hover effect te creëren op mijn programming languages cards. Ik heb een felle kleur toegepast, alleen dit gaf nog niet echt een neon effect. Na een tijdje nagedacht en wat rond te spelen kwam ik op het idee om een box shadow toetepassen, alleen in plaats van de standaard zwart dezelfde neon kleur toetevoegen.
 
 
-## Wat wil ik nog maken
+## 🎯 Wat wil ik nog maken
 - Programming languages cards wil ik components maken.
 - Programming languages cards wil ik beter responsive maken.
 - Programming languages cards wil ik proberen met css te maken zodat deze beter ondersteund worden.
@@ -70,14 +65,14 @@ Ik vond het ook tof om een neon hover effect te creëren op mijn programming lan
 - Ik wil dat je mijngithub kunt bekijken 
 
 
-## Tech Stack
+## 🛠️ Tech Stack
 - HTML
 - CSS
 - JS
 - EJS
 - Svelte
 
-## Tools
+## 🧰 Tools
 - Visual studio code (code editor)
 - Vercel (hosting)
 - Figma (Design tool)
