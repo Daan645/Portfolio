@@ -10,8 +10,8 @@ Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="por
 - [📈 Waar ben ik het meest trots op](#-waar-ben-ik-het-meest-trots-op)
 - [🚧 Waar liep ik tegen aan](#-waar-liep-ik-tegen-aan)
 - [🎯 Wat wil ik nog maken](#-wat-wil-ik-nog-maken)
-- 
-- [🧰 Tech stack & tools](#-tech-stack-&-tools)
+
+- [🧰 Tools](#-tools)
 - [🔧 Installatie](#-installatie)
 
 
