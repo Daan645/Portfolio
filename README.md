@@ -5,7 +5,7 @@
 Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="portfolio website">Hier</a>
 
 ## Inhoudsopgave
-  * [✏️ Beschrijving](#beschrijving)
+  * [✏️ Beschrijving](##✏️ Beschrijving)
   * [💻 Gebruik](#gebruik)
   * [🔎 Kenmerken](#kenmerken)
   * [🔧 Installatie](#installatie)
