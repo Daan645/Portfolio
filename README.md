@@ -65,7 +65,7 @@ Ik vond het ook tof om een neon hover effect te creëren op mijn programming lan
 - Ik wil dat je mijngithub kunt bekijken 
 
 
-## 🛠️ Tech Stack
+## 🛠️ Tech stack
 - HTML
 - CSS
 - JS
