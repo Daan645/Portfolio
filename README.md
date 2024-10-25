@@ -5,14 +5,14 @@
 Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="portfolio website">Hier</a>
 
 ## Inhoudsopgave
-- [✏️ Beschrijving](#beschrijving)
-- [💻 Gebruik](#gebruik)
-- [Waar ben ik het meest trots op](#waar-ben-ik-het-meest-trots-op)
-- [Waar liep ik tegen aan](#waar-liep-ik-tegen-aan)
-- [Wat wil ik nog maken](#wat-wil-ik-nog-maken)
-- [Tech Stack](#tech-stack)
-- [🔎 Kenmerken](#kenmerken)
-- [🔧 Installatie](#installatie)
+- [✏️ Beschrijving](#-beschrijving)
+- [💻 Gebruik](#-gebruik)
+- [📈 Waar ben ik het meest trots op](#waar-ben-ik-het-meest-trots-op)
+- [🚧 Waar liep ik tegen aan](#waar-liep-ik-tegen-aan)
+- [🎯 Wat wil ik nog maken](#wat-wil-ik-nog-maken)
+- [🛠️ Tech Stack](#tech-stack)
+- [🔍 Kenmerken](#kenmerken)
+- [🔧 Installatie](#-installatie)
 
 
 ## ✏️ Beschrijving
