@@ -5,11 +5,15 @@
 Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="portfolio website">Hier</a>
 
 ## Inhoudsopgave
-  * [✏️ Beschrijving](##✏️ Beschrijving)
-  * [💻 Gebruik](#gebruik)
-  * [🔎 Kenmerken](#kenmerken)
-  * [🔧 Installatie](#installatie)
-  * [🗝️ Licentie](#licentie)
+- [✏️ Beschrijving](#beschrijving)
+- [💻 Gebruik](#gebruik)
+- [Waar ben ik het meest trots op](#waar-ben-ik-het-meest-trots-op)
+- [Waar liep ik tegen aan](#waar-liep-ik-tegen-aan)
+- [Wat wil ik nog maken](#wat-wil-ik-nog-maken)
+- [Tech Stack](#tech-stack)
+- [🔎 Kenmerken](#kenmerken)
+- [🔧 Installatie](#installatie)
+
 
 ## ✏️ Beschrijving
 Dit is mijn persoonlijke portfolio, hier wil ik al mijn toffe projecten laten zien en een beter beeld van mijzelf geven. Ook kan ik op mijn portfolio al mijn creatieve code ideeën toepassen het kan niet gek genoeg!
@@ -66,7 +70,7 @@ Ik vond het ook tof om een neon hover effect te creëren op mijn programming lan
 - Ik wil dat je mijngithub kunt bekijken 
 
 
-## Technieken
+## Tech Stack
 - HTML
 - CSS
 - JS
