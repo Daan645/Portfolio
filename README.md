@@ -1,16 +1,15 @@
-# Profile card / portfolio
+# 👨‍💻 Portfolio
 <img width="1755" alt="Scherm­afbeelding 2024-09-19 om 14 10 24" src="https://github.com/user-attachments/assets/ad3f6923-2b30-4bb1-b40f-fb65ddf87904">
 
-## Link naar website
+## 🔗 Link naar website
 Bekijk mijn portfolio <a href="https://portfolio-nu-dun-93.vercel.app/" alt="portfolio website">Hier</a>
 
-## Inhoudsopgave
+## 📄 Inhoudsopgave
 - [✏️ Beschrijving](#-beschrijving)
 - [💻 Gebruik](#-gebruik)
 - [📈 Waar ben ik het meest trots op](#-waar-ben-ik-het-meest-trots-op)
 - [🚧 Waar liep ik tegen aan](#-waar-liep-ik-tegen-aan)
 - [🎯 Wat wil ik nog maken](#-wat-wil-ik-nog-maken)
-
 - [🧰 Tools](#-tools)
 - [🔧 Installatie](#-installatie)
 
