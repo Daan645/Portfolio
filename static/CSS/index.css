@@ -1,3 +1,4 @@
+/* Whole page */
 .page-wrapper {
     flex-direction: column;
     height: 100vh;
@@ -5,19 +6,24 @@
 	scroll-snap-type: y mandatory;
 }
 
+
+
+/* hero */
 .hero, .languages {
     scroll-snap-align: start;
     height: 100vh; 
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
 }
 
 .hero {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.hero h1, .hero p {
+.hero h1, .hero button {
     border-radius: var(--radius-large);
     padding: 0.3em;
 
@@ -28,13 +34,15 @@
     border: 10px solid #AA3CC2;
 }
 
-.hero p {
+.hero button {
     font-size: 3em;
     background-color: #6E6CE4;
     margin: 1.5em 0 0 2em;
+    border: none;
+    cursor: pointer;
 }
 
-.hero p:hover {
+.hero button:hover {
     box-shadow: 0px 5px 50px #6E6CE4; /* Rode schaduw met hex code */
     scale: 1.1;
     rotate: 10deg;
@@ -56,8 +64,72 @@
     animation: arrow-floating-animation 2s infinite;
 }
 
-/* Languages */
 
+
+
+/* html tags easter eggs */
+.html-tags {
+    display: none;
+    position: absolute;
+    top: -10%;
+    font-weight: bold;
+    font-size: 30px;
+    height: 100vh;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+.html-tags-rain {
+    display: flex;
+    flex-direction: column;
+    animation: html-drop 2s cubic-bezier(0.1, -0.6, 0.2, 0) forwards;
+}
+
+.html-tags:first-of-type {
+    left: 5%;
+    color: #AA3CC2;
+    
+}
+
+.html-tags:nth-of-type(2) {
+    left: 12%;
+    color: lime;
+    animation-delay: 0.5s;
+}
+
+.html-tags:nth-of-type(3) {
+    left: 24%;
+    color: hotpink;
+    animation-delay: 1s;
+}
+
+.html-tags:nth-of-type(4) {
+    left: 36%;
+    color: lightskyblue;
+    animation-delay: 1.2s;
+}
+
+.html-tags:nth-of-type(5) {
+    left: 54%;
+    color: red;
+    animation-delay: 1.6s;
+}
+
+.html-tags:nth-of-type(6) {
+    left: 67%;
+    color: yellow;
+    animation-delay: 2s;
+}
+
+.html-tags:nth-of-type(7) {
+    left: 87%;
+    color: orange;
+    animation-delay: 2.2s;
+}
+
+
+
+/* Languages section */
 .languages {
     display: flex;
     flex-direction: column;
@@ -68,7 +140,7 @@
 }
 
 .language-title {
-    font-size: 3em;
+    font-size: 100%;
        margin-bottom: 1em;
 }
 
@@ -85,6 +157,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 100%;
     border-right: solid 2px black;
     border-radius: 20px;
     height: 50vh;
@@ -93,7 +166,8 @@
     opacity: 20%;
     transition: 0.7s ease;
     margin: 0.5em;
-animation: languages-fade-in 0.2s ease-in;
+    animation: languages-fade-in 0.2s ease-in;
+    
 }
 
 .languages-mysql {
@@ -143,7 +217,12 @@ animation: languages-fade-in 0.2s ease-in;
     opacity: 100%;
 }
 
+.html-popup{
+    display: none;
+}
+
 .languages-active {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 4em;
@@ -161,6 +240,29 @@ animation: languages-fade-in 0.2s ease-in;
     opacity: 100%;
 }
 
+.language-text {
+    margin-top: 2em;
+    width: 90%;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.close-button {
+    border-radius: var(--radius-large);
+    background-color: black;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#closeHtml {
+    color: orange;
+    border: solid 5px orange;
+
+}
+
+/* animations */
+
+/* used on arrow */
 @keyframes arrow-floating-animation {
     0% {
         transform: translateY(-20%);
@@ -175,7 +277,45 @@ animation: languages-fade-in 0.2s ease-in;
     }
 }
 
+/* used on frontend developer button */
+@keyframes html-drop {
 
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(100%);
+    }
+
+    70%{
+        transform: translateY(70%);
+    }
+
+    80% {
+        transform: translateY(100%);
+        scale: 0.8;
+    }
+
+    90% {
+        transform: translateY(80%);
+}
+
+95% {
+    transform: translateY(100%);
+
+}
+
+98% {
+    transform: translateY(90%);
+}
+
+    100% {
+        transform: translateY(95%);
+    }
+}
+
+/* Used on the languages section */
 @keyframes languages-fade-in {
 0% {
 transform: translateY(-30%);
@@ -187,3 +327,98 @@ opacity: 0;
     opacity: 20%;
 }
 }
+.html-content {
+display: none;
+}
+
+
+
+/* media queries */
+@media only screen and (max-width: 1040px) {
+   .hero h1 {
+    font-size: 5em;
+   }
+
+   .languages-container {
+display: grid;
+grid-template-areas: "first-row", "first-row", "first-row",
+"second-row", "second-row", "second-row";
+   }
+
+ }
+
+ @media only screen and (max-width: 780px) {
+    
+    .hero {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+    }
+    
+    .hero-arrow-container {
+     display: none;
+    }
+
+    .hero button {
+        font-size: 2.5em;
+        margin: 1em 0 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 605px) {
+    
+    .hero {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 3.5em;
+    }
+    
+    .hero-arrow-container {
+     display: none;
+    }
+
+    .hero button {
+        font-size: 2em;
+        margin: 1em 0 0 0;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 533px) {
+    
+    .hero {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2.7em;
+    }
+    
+    .hero button {
+        font-size: 1.5em;
+        margin: 1em 0 0 0;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 418px) {
+    
+    .hero {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+    
+    .hero button {
+        font-size: 1em;
+        margin: 1em 0 0 0;
+    }
+  }
