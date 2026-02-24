@@ -1,8 +1,40 @@
+<script lang="ts">
+	import './ProgrammingLanguages.scss';
+	import { onMount } from 'svelte';
+	import { createDraggable } from 'animejs/draggable';
+
+	let draggables: any[] = [];
+	let dragged: boolean = false;
+
+	onMount(() => {
+		const elements = document.querySelectorAll('.languages');
+
+		elements.forEach((el) => {
+			const draggableInstance = createDraggable(el, {
+				container: '.programming-languages',
+				onDrag: () => {
+					dragged = true;
+				}
+			});
+			draggables.push(draggableInstance);
+		});
+	});
+
+	function resetDrag() {
+		draggables.forEach((d) => d.reset());
+		dragged = false;
+	}
+</script>
+
 <section class="programming-languages">
 	<div class="language-title">
 		<h2>Programmeer Talen</h2>
 	</div>
-
+	{#if dragged}
+		<button class="reset-button" on:click={resetDrag!} aria-label="reset">
+			<box-icon class="box" type="logo" name="undo-stroke" size="10em"></box-icon>
+		</button>
+	{/if}
 	<div class="programming-languages-wrapper">
 		<button popovertarget="htmlPopoverContent" class="languages-html languages">
 			<h2>HTML</h2>
@@ -53,7 +85,3 @@
       </section> -->
 	</div>
 </section>
-
-<style>
-	@import './ProgrammingLanguages.scss';
-</style>
