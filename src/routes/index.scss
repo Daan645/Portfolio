@@ -1,0 +1,9 @@
+/* Whole page */
+.page-wrapper {
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+  }
+  
+ 
