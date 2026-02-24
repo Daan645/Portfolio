@@ -1,12 +1,15 @@
 <script lang="ts">
-	import Hero from '$lib/components/Hero/Hero.svelte';
+	import { Hero, ProgrammingLanguages } from '$lib/components';
+	import './index.scss';
 </script>
 
 <div class="page-wrapper">
 	<!-- Hero -->
-	<Hero />
+	<section class="section">
+		<Hero />
+	</section>
 	<!-- Programming languages -->
-	<section class="programming-languages">
-		<!-- <ProgrammingLanguages /> -->
+	<section class="section">
+		<ProgrammingLanguages />
 	</section>
 </div>
