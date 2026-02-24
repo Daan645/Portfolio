@@ -31,9 +31,7 @@
 		<h2>Programmeer Talen</h2>
 	</div>
 	{#if dragged}
-		<button class="reset-button" on:click={resetDrag!} aria-label="reset">
-			<box-icon class="box" type="logo" name="undo-stroke" size="10em"></box-icon>
-		</button>
+		<button id="reset-button" class:show-reset-button={dragged} on:click={resetDrag!}>Reset</button>
 	{/if}
 	<div class="programming-languages-wrapper">
 		<button popovertarget="htmlPopoverContent" class="languages-html languages">
@@ -41,7 +39,7 @@
 			<box-icon type="logo" name="html5" size="10em"></box-icon>
 		</button>
 		<article id="htmlPopoverContent" popover>
-			<p class="html-content language-text">
+			<p class="html-content">
 				Html bepaalt de basisstructuur van de website. Goede en semantische Html is essentieel voor
 				een goede website en zorgt voor betere resultaten in zoekmachines.
 			</p>
