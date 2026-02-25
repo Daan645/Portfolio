@@ -5,11 +5,11 @@
 
 <div class="page-wrapper">
 	<!-- Hero -->
-	<section class="section">
+	<section id="hero" class="section">
 		<Hero />
 	</section>
 	<!-- Programming languages -->
-	<section class="section">
+	<section id="languages" class="section">
 		<ProgrammingLanguages />
 	</section>
 </div>
