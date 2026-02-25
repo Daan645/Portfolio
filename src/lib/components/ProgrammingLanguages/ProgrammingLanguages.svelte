@@ -12,6 +12,7 @@
 		elements.forEach((el) => {
 			const draggableInstance = createDraggable(el, {
 				container: '.programming-languages',
+
 				onDrag: () => {
 					dragged = true;
 				}

@@ -51,10 +51,12 @@
 	border-radius: 1000px;
 	background-color: darkslategray;
 	opacity: 0.2;
-	transition: 0.3s ease;
 	margin: 0.5em;
 	animation: languages-fade-in 0.2s ease-in;
 	border: 10px solid;
+	&:hover {
+		transition: background-color 0.3s ease;
+	}
 
 	h2 {
 		font-size: 1.5em;
